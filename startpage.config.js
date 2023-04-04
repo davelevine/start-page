@@ -1,5 +1,5 @@
 const defaultConfig = {
-	username: "Excalith",
+	username: "Dave's",
 	theme: {
 		backgroundColor: "#121317",
 		windowColor: "#1e212b",
@@ -42,7 +42,7 @@ const defaultConfig = {
 	},
 	fetch: {
 		timeFormat: "HH:mm",
-		dateFormat: "DD/MM/YYYY",
+		dateFormat: "YYYY/MM/DD",
 		titleColor: "yellow",
 		image: "icon.svg",
 		data: [
@@ -57,13 +57,13 @@ const defaultConfig = {
 		]
 	},
 	urlLaunch: {
-		target: "_self",
+		target: "_blank",
 		defaultColor: "white",
 		hoverColor: "violet"
 	},
 	search: {
-		default: "https://google.com/search?q=",
-		target: "_self",
+		default: "https://my.search.cc/search?q=",
+		target: "_blank",
 		shortcutRegex: "([A-Za-z0-9]+) (.*)",
 		shortcuts: [
 			{
@@ -108,135 +108,155 @@ const defaultConfig = {
 			{
 				title: "General",
 				color: "green",
-				align: "left",
+				align: "center",
 				links: [
 					{
-						name: "Portfolio",
-						url: "https://cancellek.com",
+						name: "Cloud",
+						target: "_blank",
+						url: "https://dash.cloudflare.com",
+						icon: "simple-icons:cloudflare"
+					},
+					{
+						name: "pfSense",
+						target: "_blank",
+						url: "https://pfsense.davelevine.io/",
+						icon: "simple-icons:pfsense"
+					},
+					{
+						name: "Proton",
+						target: "_blank",
+						url: "https://protonmail.com/",
+						icon: "simple-icons:protonmail"
+					},
+					{
+						name: "Resume",
+						target: "_blank",
+						url: "https://dave.levine.org",
 						icon: "mdi:web"
-					},
-					{
-						name: "Keybase",
-						url: "https://keybase.io/",
-						icon: "fa-brands:keybase"
-					},
-					{
-						name: "GPT",
-						url: "https://chat.openai.com/",
-						icon: "simple-icons:openai"
-					},
-					{
-						name: "OCI",
-						url: "https://www.oracle.com/cloud/",
-						icon: "simple-icons:oracle"
 					}
 				]
 			},
 			{
 				title: "Dev",
 				color: "magenta",
-				align: "left",
+				align: "center",
 				links: [
 					{
+						name: "Gitea",
+						target: "_blank",
+						url: "https://code.wired.io",
+						icon: "simple-icons:gitea"
+					},
+					{
 						name: "GitHub",
-						url: "https://github.com",
+						target: "_blank",
+						url: "https://github.com/davelevine",
 						icon: "mdi:github"
 					},
 					{
-						name: "GitLab",
-						url: "https://gitlab.com",
-						icon: "ph:gitlab-logo-simple-fill"
+						name: "Vercel",
+						target: "_blank",
+						url: "https://vercel.com/",
+						icon: "simple-icons:vercel"
 					},
 					{
-						name: "Dev.to",
-						url: "https://dev.to",
-						icon: "material-symbols:logo-dev"
-					},
-					{
-						name: "Stack Overflow",
-						url: "https://stackoverflow.com/",
-						icon: "mdi:stack-overflow"
+						name: "VSCode",
+						target: "_blank",
+						url: "https://wired.io",
+						icon: "simple-icons:visualstudiocode"
 					}
 				]
 			},
 			{
-				title: "Social",
-				color: "violet",
-				align: "left",
+				title: "Services",
+				color: "red",
+				align: "center",
 				links: [
 					{
-						name: "Twitter",
-						url: "https://twitter.com",
-						icon: "mdi:twitter"
+						name: "GPhotos",
+						target: "_blank",
+						url: "https://photos.google.com",
+						icon: "simple-icons:googlephotos"
 					},
 					{
-						name: "Mastodon",
-						url: "https://mastodon.social/",
-						icon: "ri:mastodon-fill"
+						name: "Plex",
+						target: "_blank",
+						url: "https://app.plex.tv/",
+						icon: "mdi:plex"
 					},
 					{
 						name: "Reddit",
-						url: "https://reddit.com",
+						target: "_blank",
+						url: "https://www.thoughtcrime.xyz",
 						icon: "mdi:reddit"
 					},
 					{
-						name: "Polywork",
-						url: "https://polywork.com",
-						icon: "simple-icons:polywork"
+						name: "YouTube",
+						target: "_blank",
+						url: "https://youtube.com",
+						icon: "simple-icons:youtube"
 					}
 				]
 			},
 			{
-				title: "Gaming",
+				title: "Homelab",
 				color: "cyan",
-				align: "left",
+				align: "center",
 				links: [
 					{
-						name: "Polygon",
-						url: "https://polygon.com",
-						icon: "uil:polygon"
+						name: "Hass.io",
+						target: "_blank",
+						url: "https://home.xdv.com",
+						icon: "simple-icons:homeassistant"
 					},
 					{
-						name: "IGN",
-						url: "https://ign.com",
-						icon: "mdi:currency-sign"
+						name: "MkDocs",
+						target: "_blank",
+						url: "https://docs.levine.org/",
+						icon: "mdi:library"
 					},
 					{
-						name: "RPS",
-						url: "https://rockpapershotgun.com/",
-						icon: "ph:toilet-paper-bold"
+						name: "NAS",
+						target: "_blank",
+						url: "https://diskstation.davelevine.io",
+						icon: "mdi:nas"
 					},
 					{
-						name: "80lv",
-						url: "https://80.lv/",
-						icon: "tabler:hand-rock"
+						name: "UniFi",
+						target: "_blank",
+						url: "https://digital.cc/",
+						icon: "simple-icons:ubiquiti"
 					}
 				]
 			},
 			{
-				title: "Science",
-				color: "blue",
-				align: "left",
+				title: "Other",
+				color: "orange",
+				align: "center",
 				links: [
 					{
-						name: "PopSci",
-						url: "https://popsci.com/",
-						icon: "material-symbols:science"
+						name: "Request",
+						target: "_blank",
+						url: "https://request.davelevine.io/",
+						icon: "simple-icons:plex"
 					},
 					{
-						name: "Space",
-						url: "fa6-solid:user-astronaut",
-						icon: "mdi:reddit"
+						name: "Status",
+						target: "_blank",
+						url: "https://status.xdv.com/",
+						icon: "simple-icons:statuspage"
 					},
 					{
-						name: "NASA",
-						url: "https://blogs.nasa.gov/",
-						icon: "simple-icons:nasa"
+						name: "Tautulli",
+						target: "_blank",
+						url: "https://tautulli.davelevine.io",
+						icon: "simple-icons:simpleanalytics"
 					},
 					{
-						name: "ESA",
-						url: "https://blogs.esa.int/",
-						icon: "mdi:black-mesa"
+						name: "Wikiless",
+						target: "_blank",
+						url: "https://wiki.xdv.com/",
+						icon: "simple-icons:wikipedia"
 					}
 				]
 			},
@@ -246,24 +266,28 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
-						name: "TechCrunch",
-						url: "https://techcrunch.com/",
-						icon: "game-icons:techno-heart"
+						name: "AWS",
+						target: "_blank",
+						url: "https://aws.amazon.com",
+						icon: "simple-icons:amazonaws"
+					},
+					{
+						name: "News",
+						target: "_blank",
+						url: "https://www.nrve.com/",
+						icon: "simple-icons:ycombinator"
 					},
 					{
 						name: "Verge",
+						target: "_blank",
 						url: "https://www.theverge.com/",
 						icon: "arcticons:verge"
 					},
 					{
-						name: "It's Foss",
-						url: "https://itsfoss.com/",
-						icon: "ri:mastodon-fill"
-					},
-					{
-						name: "9To5 Linux",
-						url: "https://9to5linux.com/",
-						icon: "uil:linux"
+						name: "Wired",
+						target: "_blank",
+						url: "https://wired.com/",
+						icon: "simple-icons:wire"
 					}
 				]
 			}
