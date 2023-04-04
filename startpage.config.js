@@ -263,7 +263,7 @@ const defaultConfig = {
 			{
 				title: "Tech",
 				color: "yellow",
-				align: "left",
+				align: "center",
 				links: [
 					{
 						name: "AWS",
