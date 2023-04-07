@@ -274,7 +274,7 @@ const defaultConfig = {
 					{
 						name: "News",
 						target: "_blank",
-						url: "https://www.nrve.com/",
+						url: "https://news.xdv.com/",
 						icon: "simple-icons:ycombinator"
 					},
 					{
