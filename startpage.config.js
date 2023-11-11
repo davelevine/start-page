@@ -131,7 +131,7 @@ const defaultConfig = {
 					{
 						name: "Resume",
 						target: "_blank",
-						url: "https://dave.levine.org",
+						url: "https://www.davelevine.io",
 						icon: "mdi:web"
 					}
 				]
@@ -154,17 +154,17 @@ const defaultConfig = {
 						icon: "mdi:github"
 					},
 					{
+						name: "Novel",
+						target: "_blank",
+						url: "https://wired.io",
+						icon: "simple-icons:vuetify"
+					},
+					{
 						name: "Vercel",
 						target: "_blank",
 						url: "https://vercel.com/",
 						icon: "simple-icons:vercel"
 					},
-					{
-						name: "VSCode",
-						target: "_blank",
-						url: "https://wired.io",
-						icon: "simple-icons:visualstudiocode"
-					}
 				]
 			},
 			{
@@ -272,10 +272,10 @@ const defaultConfig = {
 						icon: "simple-icons:amazonaws"
 					},
 					{
-						name: "News",
+						name: "RSS",
 						target: "_blank",
-						url: "https://hn.xdv.com/",
-						icon: "simple-icons:ycombinator"
+						url: "https://feedbin.com/",
+						icon: "simple-icons:rss"
 					},
 					{
 						name: "Verge",
@@ -284,10 +284,10 @@ const defaultConfig = {
 						icon: "arcticons:verge"
 					},
 					{
-						name: "Wired",
+						name: "News",
 						target: "_blank",
-						url: "https://wired.com/",
-						icon: "simple-icons:wire"
+						url: "https://hn.xdv.com",
+						icon: "simple-icons:ycombinator"
 					}
 				]
 			}
