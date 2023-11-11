@@ -272,6 +272,12 @@ const defaultConfig = {
 						icon: "simple-icons:amazonaws"
 					},
 					{
+						name: "News",
+						target: "_blank",
+						url: "https://hn.xdv.com",
+						icon: "simple-icons:ycombinator"
+					},
+					{
 						name: "RSS",
 						target: "_blank",
 						url: "https://feedbin.com/",
@@ -283,12 +289,6 @@ const defaultConfig = {
 						url: "https://www.theverge.com/",
 						icon: "arcticons:verge"
 					},
-					{
-						name: "News",
-						target: "_blank",
-						url: "https://hn.xdv.com",
-						icon: "simple-icons:ycombinator"
-					}
 				]
 			}
 		]
