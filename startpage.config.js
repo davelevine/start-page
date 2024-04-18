@@ -111,7 +111,7 @@ const defaultConfig = {
 				align: "center",
 				links: [
 					{
-						name: "Cloud",
+						name: "Cloudflare",
 						target: "_blank",
 						url: "https://dash.cloudflare.com",
 						icon: "simple-icons:cloudflare"
@@ -154,10 +154,10 @@ const defaultConfig = {
 						icon: "mdi:github"
 					},
 					{
-						name: "Novel",
+						name: "PGP Tool",
 						target: "_blank",
-						url: "https://wired.io",
-						icon: "simple-icons:vuetify"
+						url: "https://pgp.encoded.net",
+						icon: "simple-icons:monkeytie"
 					},
 					{
 						name: "Vercel",
@@ -284,10 +284,10 @@ const defaultConfig = {
 						icon: "simple-icons:rss"
 					},
 					{
-						name: "Verge",
+						name: "WHOIS",
 						target: "_blank",
-						url: "https://www.theverge.com/",
-						icon: "arcticons:verge"
+						url: "https://whois.xdv.com/",
+						icon: "simple-icons:quicklook"
 					},
 				]
 			}
