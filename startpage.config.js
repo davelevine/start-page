@@ -119,7 +119,7 @@ const defaultConfig = {
 					{
 						name: "pfSense",
 						target: "_blank",
-						url: "https://pfsense.davelevine.io/",
+						url: "https://pfsense.fluffy-python.ts.net:4443",
 						icon: "simple-icons:pfsense"
 					},
 					{
@@ -142,16 +142,16 @@ const defaultConfig = {
 				align: "center",
 				links: [
 					{
-						name: "Gitea",
-						target: "_blank",
-						url: "https://code.wired.io",
-						icon: "simple-icons:gitea"
-					},
-					{
 						name: "GitHub",
 						target: "_blank",
 						url: "https://github.com/davelevine",
 						icon: "mdi:github"
+					},
+					{
+						name: "HN API",
+						target: "_blank",
+						url: "https://api.xdv.com",
+						icon: "simple-icons:fastapi"
 					},
 					{
 						name: "PGP Tool",
@@ -181,13 +181,13 @@ const defaultConfig = {
 					{
 						name: "Plex",
 						target: "_blank",
-						url: "https://app.plex.tv/",
+						url: "https://xenlab.fluffy-python.ts.net:32400",
 						icon: "mdi:plex"
 					},
 					{
 						name: "Reddit",
 						target: "_blank",
-						url: "https://www.thoughtcrime.xyz",
+						url: "https://www.reddit.com",
 						icon: "mdi:reddit"
 					},
 					{
@@ -212,19 +212,19 @@ const defaultConfig = {
 					{
 						name: "MkDocs",
 						target: "_blank",
-						url: "https://docs.levine.org/",
+						url: "https://docs.levine.io/",
 						icon: "mdi:library"
 					},
 					{
 						name: "NAS",
 						target: "_blank",
-						url: "https://diskstation.davelevine.io",
+						url: "https://diskstation.fluffy-python.ts.net",
 						icon: "mdi:nas"
 					},
 					{
 						name: "UniFi",
 						target: "_blank",
-						url: "https://digital.cc/",
+						url: "https://ui.xdv.com",
 						icon: "simple-icons:ubiquiti"
 					}
 				]
@@ -243,7 +243,7 @@ const defaultConfig = {
 					{
 						name: "Status",
 						target: "_blank",
-						url: "https://status.xdv.com/",
+						url: "https://status.wired.io",
 						icon: "simple-icons:statuspage"
 					},
 					{
