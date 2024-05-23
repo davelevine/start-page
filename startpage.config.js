@@ -131,7 +131,7 @@ const defaultConfig = {
 					{
 						name: "Resume",
 						target: "_blank",
-						url: "https://www.davelevine.io",
+						url: "https://dave.levine.io",
 						icon: "mdi:web"
 					}
 				]
